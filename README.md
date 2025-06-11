@@ -4,11 +4,7 @@ This repository is my `virtual card` that serves as my portfolio for the current
 
 It's a customised version based on the template created by [@CodeWithSadee](https://github.com/CodeWithSadee). 
 
-
-
-![vCard Preview Desktop](./assets/website-demo-image/desktop.png)
-
-![vCard Preview Mobile](./assets/website-demo-image/mobile.png)
+![vCard Preview](https://github.com/user-attachments/assets/6ff5ba1e-46da-4bb4-84c6-2e59f66314c5)
 
 
 ## Inspired? Start your own! ✨
