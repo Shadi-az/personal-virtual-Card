@@ -1060,21 +1060,23 @@
             <h3 class="h3 certifications-title">Contact Form</h3>
           </div>
 
-          <form action="#" class="form" data-form>
+          <form action="https://formspree.io/f/xkgbrrzl" method="POST" class="form" data-form>
+            <input type="hidden" name="_subject" value="New message from your vCard">
+            <input type="text" name="_gotcha" style="display:none">
 
             <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="text" name="name" class="form-input" placeholder="Full name" required data-form-input>
 
               <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
             </div>
 
             <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
+            <button class="form-btn" type="submit" data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
-
+            
           </form>
 
         </section>
