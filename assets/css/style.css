@@ -111,7 +111,51 @@
 
 }
 
+@keyframes blink {
+  0% {
+      transform: scale(1);
+      opacity: .25;
+  }
+  25% {
+      opacity: 1;
+  }
+  50% {
+      opacity: .25;
+  }
+  75% {
+      opacity: 1;
+  }
+  100% {
+      transform: scale(1);
+      opacity: .25;
+  }
+}
 
+.blink {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 8px;
+  border-radius: 50%;
+  width: 10px; /* Smaller size */
+  height: 10px; /* Smaller size */
+  opacity: .25;
+  background-color: green;
+  -webkit-animation: blink 1s infinite;
+  -moz-animation: blink 1s infinite;
+  -o-animation: blink 1s infinite;
+  animation: blink 1s infinite;
+}
+
+.blink:after {
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid #ffffff; /* Adjusted for smaller effect */
+}
 
 
 
