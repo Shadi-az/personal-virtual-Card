@@ -132,9 +132,6 @@
 }
 
 .blink {
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 8px;
   border-radius: 50%;
   width: 10px; /* Smaller size */
   height: 10px; /* Smaller size */
